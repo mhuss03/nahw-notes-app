@@ -6,7 +6,7 @@ function QuestionCard() {
   const [reveal, setReveal] = useState(false);
 
   useEffect(() => {
-    fetch("/data/questions.json")
+    fetch("data/questions.json")
       .then((response) => response.json())
       .then((responseData) => {
         setData(responseData);
@@ -16,7 +16,7 @@ function QuestionCard() {
   return (
     <div className="flex h-screen w-full flex-col items-center justify-start">
       <QuestionBlock fetchData={data[questionNumber]} />
-      <div className="my-4 h-24 w-full bg-slate-400">
+      <div className="my-8 flex h-24 w-10/12">
         <AnswerBlock fetchData={data[questionNumber]} reveal={reveal} />
       </div>
       <div className="mt-24 flex w-10/12 flex-wrap justify-evenly">
@@ -73,7 +73,7 @@ function QuestionBlock({ fetchData }) {
   }
 
   return (
-    <ul className="flex h-32 w-full flex-row-reverse items-center justify-evenly bg-slate-700 px-2 py-8 font-arabic text-4xl tracking-wide text-white lg:py-28 lg:text-8xl">
+    <ul className="flex h-32 w-10/12 flex-row-reverse items-center justify-evenly border-8 border-slate-700 px-2 py-8 font-arabic text-4xl tracking-wide lg:py-28 lg:text-8xl">
       {arr.map((element, index) => (
         <li className="w-64 text-center" key={index}>
           {element}
@@ -115,7 +115,7 @@ function AnswerBlock({ reveal, fetchData }) {
   });
 
   return !reveal ? null : (
-    <ul className="flex h-24 w-full items-center justify-evenly bg-slate-400 py-8 font-arabic text-xl text-zinc-200 lg:py-24 lg:text-6xl">
+    <ul className="flex h-24 w-full items-center justify-evenly border-8 border-slate-400 py-8 font-arabic text-xl lg:py-24 lg:text-6xl">
       {answerArray.reverse().map((element, index) => (
         <li className="w-64 text-center" key={index}>
           {element}

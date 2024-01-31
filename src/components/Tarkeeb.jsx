@@ -7,7 +7,7 @@ function Tarkeeb() {
   const [data, setData] = useState({});
 
   useEffect(() => {
-    fetch("/data/questions.json")
+    fetch("data/questions.json")
       .then((response) => response.json())
       .then((responseData) => setData(responseData));
   }, []);
@@ -101,7 +101,7 @@ function Tarkeeb() {
               onTouchMove={(e) => handleTouchMove(e, index)}
               onDrop={(e) => handleOnDrop(e, index)}
               onDragOver={handleOnDragOver}
-              className="answer-block mx-auto my-4 h-20 w-16 border-2 border-gray-900 bg-gray-100 py-2 text-center text-2xl lg:h-32 lg:w-44"
+              className="answer-block mx-auto my-4 flex h-20 w-16 items-center justify-center border-2 border-gray-900 bg-gray-100 py-2 text-center lg:h-32 lg:w-44 lg:text-6xl"
             ></div>
           ))}
         </div>

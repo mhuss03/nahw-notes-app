@@ -4,7 +4,7 @@ import { Button } from "@mui/material";
 export default function ComingSoon() {
   return (
     <>
-      <main className="w-full bg-gray-50 py-12 md:py-24 lg:py-32">
+      <main className="flex w-full flex-wrap justify-center bg-gray-50 py-12 md:py-24 lg:py-32">
         <div className="container space-y-12 px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
@@ -19,7 +19,7 @@ export default function ComingSoon() {
             </div>
           </div>
         </div>
-        <section className="w-full bg-white py-12 md:py-24 lg:py-32">
+        <section className="flex w-full justify-center bg-white py-12 md:py-24 lg:py-32">
           <div className="container space-y-12 px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
@@ -59,7 +59,7 @@ export default function ComingSoon() {
             </div>
           </div>
         </section>
-        <section className="w-full bg-gray-100 py-12 md:py-24 lg:py-32">
+        <section className="flex w-full justify-center bg-gray-100 py-12 md:py-24 lg:py-32">
           <div className="container space-y-12 px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">

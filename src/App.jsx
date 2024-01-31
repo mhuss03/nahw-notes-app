@@ -4,16 +4,21 @@ import QuestionCard from "./components/QuestionCard";
 import Tarkeeb from "./components/Tarkeeb";
 import NavBar from "./components/NavBar";
 import ComingSoon from "./components/ComingSoon";
+import Vocab from "./components/Vocab";
 
 function App() {
   return (
     <>
       <NavBar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/tarkeeb" element={<Tarkeeb />} />
-        <Route path="/tarkeeb-practice" element={<QuestionCard />} />
-        <Route path="/progress" element={<ComingSoon />} />
+        <Route path="/nahw-notes-app/" element={<Home />} />
+        <Route path="/nahw-notes-app/tarkeeb" element={<Tarkeeb />} />
+        <Route path="/nahw-notes-app/vocabulary" element={<Vocab />} />
+        <Route
+          path="/nahw-notes-app/tarkeeb-practice"
+          element={<QuestionCard />}
+        />
+        <Route path="/nahw-notes-app/progress" element={<ComingSoon />} />
       </Routes>
     </>
   );
