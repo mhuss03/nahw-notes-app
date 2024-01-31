@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "question": "مَا غَابَ أَحْمَدُ أُسْبُوْعًا",
+    "answer": [12, 1, 2, 5],
+    "hints": "Ahmed was not absent for a week"
+  },
+  {
+    "id": 2,
+    "question": "لَا يَعْتَمِرُ خَالِدٌ رِئَاءً أَبَدًا",
+    "answer": [12, 1, 2, 3, 5],
+    "hints": "Khalid will never show off"
+  },
+  {
+    "id": 3,
+    "question": "تَصْدُقُ فَاطِمَةُ دَائِمًا رَغَبًا",
+    "answer": [1, 2, 5, 8],
+    "hints": "Fatima always gives charity willingly"
+  },
+  {
+    "id": 4,
+    "question": "لَمْ يَنْصُرِ الْأَعْدَاءُ قَطُّ حَسَدًا",
+    "answer": [12, 1, 2, 5, 7],
+    "hints": "Enemies are never helped out of envy"
+  },
+  {
+    "id": 5,
+    "question": "أَمْس انْكَسَرَ الْكُرْسِيُّ انْكِسَارًا",
+    "answer": [5, 1, 2, 6],
+    "hints": "Yesterday the chair broke."
+  },
+  {
+    "id": 6,
+    "question": "رَأَتِ الْأُمُّ الطِّفْلَةَ نَائِمَةً",
+    "answer": [1, 2, 3, 7],
+    "hints": "The mother saw the child sleeping"
+  },
+  {
+    "id": 7,
+    "question": "تَرَكَتِ النِّسَاءُ نَاسِيَاتٍ",
+    "answer": [1, 2, 8],
+    "hints": "Women left out of forgetfulness"
+  },
+  {
+    "id": 8,
+    "question": "لَا يَعْمَلُ النَّاسُ جَالِسِيْنَ",
+    "answer": [12, 1, 2, 8],
+    "hints": "People do not work sitting"
+  },
+  {
+    "id": 9,
+    "question": "سَمِعَتِ الْأُمُّ الطِّفْلَ بَاكِيًا",
+    "answer": [1, 2, 3, 8],
+    "hints": "The mother heard the child crying"
+  },
+  {
+    "id": 10,
+    "question": "يَخْطُبُ الْإِمَامُ قَائِمًا دَائِمًا",
+    "answer": [1, 2, 8, 5],
+    "hints": "The imam always delivers the sermon while standing"
+  },
+  {
+    "id": 10,
+    "question": "صَامَ الْمُسْلِمُونَ صَابِرِينَ",
+    "answer": [1, 2, 8],
+    "hints": "Muslims fasted patiently"
+  }
+]
