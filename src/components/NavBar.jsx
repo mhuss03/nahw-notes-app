@@ -14,6 +14,9 @@ export default function NavBar() {
           <Link to="/nahw-notes-app/tarkeeb" className="home-nav-link">
             Nahw
           </Link>
+          <Link className="home-nav-link" to="/nahw-notes-app/mutoon">
+            Mutoon
+          </Link>
           <Link className="home-nav-link" to="/nahw-notes-app/vocabulary">
             Vocabulary
           </Link>

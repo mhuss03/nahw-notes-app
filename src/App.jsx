@@ -5,6 +5,7 @@ import Tarkeeb from "./components/Tarkeeb";
 import NavBar from "./components/NavBar";
 import ComingSoon from "./components/ComingSoon";
 import Vocab from "./components/Vocab";
+import Mutoon from "./components/Mutoon";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path="/nahw-notes-app/" element={<Home />} />
         <Route path="/nahw-notes-app/tarkeeb" element={<Tarkeeb />} />
+        <Route path="/nahw-notes-app/mutoon" element={<Mutoon />} />
         <Route path="/nahw-notes-app/vocabulary" element={<Vocab />} />
         <Route
           path="/nahw-notes-app/tarkeeb-practice"
